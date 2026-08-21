@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* Пустой элемент для баланса flexbox, чтобы центрирование по высоте было идеальным */
+        .spacer {
+            height: 0;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #d1d5db;
+            margin-bottom: 20px;
+        }
+
+        .emails {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .emails a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            opacity: 0.9;
+            transition: opacity 0.2s ease;
+        }
+
+        .emails a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        footer {
+            color: #8e8e93;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+
+        footer p {
+            margin: 2px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="spacer"></div>
+
+    <main class="content">
+        <h1>Gaming Solutions</h1>
+        <div class="subtitle">iOS &amp; Android</div>
+        
+        <div class="emails">
+            <a href="mailto:support@onlycodemania.com">support@onlycodemania.com</a>
+            <a href="mailto:support@nutrinixy.com">support@nutrinixy.com</a>
+            <a href="mailto:support@esimania.com">support@esimania.com</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>IE EVGENII ALEKSANOV</p>
+        <p>Georgia, City Batumi, Zhiuli Shartava Avenue, N32, Floor6, Apartment N87 (B23043965)</p>
+    </footer>
+
+</body>
+</html>
